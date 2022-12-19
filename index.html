@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lee' Portfolio</title>
+  <meta name="description" content="Portfolio for Lee"/>
+  <meta name="author" content="Lee"/>
+  <link rel="icon" type="image/png" href="imgs/favicon.png" />
+  <script 
+    src="https://kit.fontawesome.com/448b709621.js" 
+    crossorigin="anonymous">
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar" class="navabar--dark">
+    <div class="navabar_logo">
+      <i class="fa-solid fa-code"></i>
+      <a href="#">Lee's Portfolio</a>
+    </div>
+    <div class="navbar_menu">
+      <ul class="navbar_menu">
+        <li class="navbar_menu_item active" data-link="#home">Home</li>
+        <li class="navbar_menu_item">About</li>
+        <li class="navbar_menu_item">Skills</li>
+        <li class="navbar_menu_item">My work</li>
+        <li class="navbar_menu_item">Testimonial</li>
+        <li class="navbar_menu_item">Contact</li>
+      </ul>
+    </div>
+
+    <!-- Toggle button -->
+    <button class="navbar_toggle-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+  </nav>
+  <!-- Home -->
+  <section id="home">
+    <img
+      src="imgs/Dream Coding.png"
+      alt="Lee's profile photo"
+      class="home_avatar"
+    />
+    <h1 class="home_title">My strength is being diligent.<br>
+      I'm LeeDohyon
+      
+    </h1>
+    <h2 class="home_description">There is nothing to be gained by doing so.<br/> 
+      Set your goals high. Life should be lived that way. 
+    </h2>
+    <button class="home_contact">contact me</button>
+  </section>
+  <!-- About -->
+  <section id="about">
+    <h1>About me</h1>
+    <p>Never give up.
+      If there is something you want to be,
+      be proud of it. Give yourself a chance.
+      Don't think of yourself as lousy.
+      There is nothing to be gained by doing so.
+    </p>
+    <div class="about_majors">
+      <div class="major">
+        <div class="major_icon">
+          <i class="fa-sharp fa-solid fa-desktop"></i>
+        </div>
+        <h2 class="major_title">Front-end</h2>
+        <p class="major_description">
+          HTML, CSS , JavaScript, TypeScript,<br/>
+          React
+        </p>
+      </div>
+      <div class="major">
+        <div class="major_icon">
+          <i class="fa-solid fa-mobile"></i>      
+        </div>
+        <h2 class="major_title">Mobile</h2>
+        <p class="major_description">
+          Java, Kotlin<br/>
+          
+        </p>
+      </div>
+      <div class="major">
+        <div class="major_icon">
+          <i class="fa-sharp fa-solid fa-server"></i>
+        </div>
+        <h2 class="major_title">Back-end</h2>
+        <p class="major_description">
+          Javascript, NodeJS<br/>
+        </p>
+      </div>
+    </div>
+    <div class="about_jobs">
+      <div class="job">
+      <div class="job_description">
+        <p class="job_name">서일대학교 - 컴퓨터전자공학과 (2016.3 ~ 2022.2)</p>
+      </div>
+      </div>     
+      <div class="job">
+      <div class="job_description">
+        <p class="job_name">육군 하사 전역 - (2017.6 ~ 2019.9)</p>
+      </div>
+      </div>
+      <div class="job">
+      <div class="job_description">
+        <p class="job_name">서울 청년 취업지원제도 인턴쉽 - (2022.8~2022.12)</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h1>Skills</h1>
+    <h2>Skills & Attributes</h2>
+    <p>주어진 일은 끝까지 그 누구보다 책임감 있게!!</p>
+    <div class="skillset">
+      <div class="skillset_left">
+        <h3 class="skillset_title">Skills</h3>
+        <!-- html스킬 -->
+        <div class="skill">
+          <div class="skill_description">
+            <span>HTML</span>
+            <span>75%</span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="skill_value" style="width: 75%;"></div>
+        </div>
+        <!-- css스킬 -->
+        <div class="skill">
+          <div class="skill_description">
+            <span>CSS</span>
+            <span>50%</span>
+          </div>
+        </div>
+      <div class="skill_bar">
+        <div class="skill_value" style="width: 50%;"></div>
+      </div>
+      <!-- javascript스킬 -->
+      <div class="skill">
+        <div class="skill_description">
+          <span>JavaScript</span>
+          <span>55%</span>
+        </div>
+      </div>  
+    <div class="skill_bar">
+      <div class="skill_value" style="width: 55%;"></div>
+    </div>
+      
+      </div>
+      <div class="skillset_right">
+        <div class="tools">
+          <h3 class="skillset_title">Tools</h3>
+          <ul class="tools_list">
+            <li><span>Visual Studio Code</span></li>
+            <li><span>Intellij</span></li>
+            <li><span>Android Studio Code</span></li>
+            <li><span>Atom</span></li>
+          </ul>
+        </div>
+        <div class="etc">
+          <h3 class="skillset_title">Etc</h3>
+          <ul class="etc_list">
+            <li><span>Git</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Work -->
+  <section id="work">
+    <h1>My work</h1>
+    <h3>Projects</h3>
+    <div class="work_categories">
+      <button class="category_btn active">All<span class="category_count">3</span>
+      </button>
+      <button class="category_btn">Front-end<span class="category_count">3</span>
+      </button>
+    </div>
+
+    <div class="work_projects">
+      <a href="https://github.com/Leedohyun2/Reaction.git" class="project" target="blank">
+      <img class="project_img" src="imgs/navbar.png" alt="Num1">
+      <div class="project_description">
+        <h3>ReactionWeb</h3>
+        <span>JS를 이용한 반응형웹</span>
+      </div>
+      </a>
+      <a href="https://github.com/Leedohyun2/recording.git" class="project" target="blank">
+        <img class="project_img" src="imgs/recording.png" alt="Num1">
+        <div class="project_description">
+          <h3>Recording</h3>
+          <span>JS를 이용한 녹화프로그램</span>
+        </div>
+        </a>
+      <a href="https://github.com/Leedohyun2/MEME-MAKER.git" class="project" target="blank">
+        <img class="project_img" src="imgs/GRP.png" alt="Num1">
+        <div class="project_description">
+          <h3>Drawing Board</h3>
+          <span>JS를 이용한 그림판</span>
+        </div>
+        </a>
+    </div>
+  </section>
+  <!-- Testimoials -->
+  <section id="testimonials">
+    <h1>Testimonials</h1>
+    <h3>See what they say about me</h3>
+    <div class="testimonials">
+      <div class="testimonials">
+        <img src="imgs/people1_12942eb352.jpg" alt="People" class="testimonial_avatar"/>
+        <div class="testimonial_speech-buble">
+          <p>
+            Often people wait for opportunities, 
+            but opportunities do not go unnoticed by those who wait. 
+            Before we can be people who wait for opportunities, 
+            we must have the skills to get them. 
+            You have to become a person who is more zealous in your work.
+          </p>
+          <p class="name"><a href="https://immersivecast.com/main-ko/" target="blank">immersivecast</a> / Intern
+          </p>
+      </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <h1 class="contact_title">My email</h1>
+    <h3 class="contact_email">ehqhddl123@naver.com</h3>
+    <div class="contact_links">
+      <a href="#" target="_blanks">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="#" target="_blank">
+        <i class="fa fa-linkedin-square"></i>
+      </a>
+    </div>
+    <p class="contact_rights">
+      2022 Dream Coding 
+    </p>
+  </section>
+</body>
+</html>
