@@ -13,7 +13,7 @@ document.addEventListener('scroll', () => {
   }
 });
 
-// navbar에서 버튼 클릭 시 지정된 위치로 이동
+// navbar에서 버튼 클릭 시 지정된 위치로  이동
 const navbarMenu = document.querySelector('.navbar_menu');
 navbarMenu.addEventListener('click', (event) => {
   console.log(event.target.dataset.link);
